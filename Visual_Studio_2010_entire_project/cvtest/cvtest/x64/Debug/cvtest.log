@@ -1,0 +1,523 @@
+﻿Build started 8/17/2015 4:54:52 PM.
+     1>Project "C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\Read_data\cvtest\cvtest\cvtest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\cvtest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\bin\win64" /I"C:\Program Files\MATLAB\R2013a\extern\include" /IC:\opencv\build\include /IC:\opencv\build\include\opencv /IC:\opencv\build\include\opencv2 /I"C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\alglib-3.9.0.cpp.gpl_test\cpp\src" /I"C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\armadillo-5.200.1\armadillo-5.200.1\include\armadillo_bits" /IS:\TryBoost\boost_1_58_0\boost_1_58_0 /I"S:\CbC\Cbc-2.9.5\Cbc\src" /I"S:\CbC\Cbc-2.9.5\CoinUtils\src" /I"S:\CbC\Cbc-2.9.5\Cgl\src" /I"S:\CbC\Cbc-2.9.5\Clp\src" /I"S:\CbC\Cbc-2.9.5\Osi\src" /I"S:\CbC\Cbc-2.9.5\Osi\src\Osi" /I"C:\Program Files\VTK\include\vtk-6.2" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\cvtest.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt vessel_assosiation.cpp
+         vessel_assosiation.cpp
+     1>CL : warning : this compiler is outdated and has incomplete support for the C++ standard;
+     1>CL : warning : if something breaks, you get to keep all the pieces
+     1>CL : warning : detected 'min' and/or 'max' macros and undefined them;
+     1>CL : warning : you may wish to define NOMINMAX before including any windows header
+     1>vessel_assosiation.cpp(306): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(418): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(440): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(456): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(456): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(509): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'double', possible loss of data
+     1>vessel_assosiation.cpp(633): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(634): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(856): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(857): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(858): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(859): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(1111): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(1122): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(1123): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(1163): warning C4244: 'argument' : conversion from 'std::numeric_limits<double>::_Ty' to 'const int', possible loss of data
+     1>vessel_assosiation.cpp(1239): warning C4244: 'argument' : conversion from 'std::numeric_limits<double>::_Ty' to 'const int', possible loss of data
+     1>vessel_assosiation.cpp(1305): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(1316): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(1317): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(1357): warning C4244: 'argument' : conversion from 'std::numeric_limits<double>::_Ty' to 'const int', possible loss of data
+     1>vessel_assosiation.cpp(1361): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 vessel_assosiation.cpp(1339) : definition of 'i' ignored
+                 vessel_assosiation.cpp(1227) : definition of 'i' used
+     1>vessel_assosiation.cpp(1362): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 vessel_assosiation.cpp(1339) : definition of 'i' ignored
+                 vessel_assosiation.cpp(1227) : definition of 'i' used
+     1>vessel_assosiation.cpp(1379): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(1391): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>vessel_assosiation.cpp(1401): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>vessel_assosiation.cpp(1417): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>vessel_assosiation.cpp(1433): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(1433): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(1469): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(1484): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(1528): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>vessel_assosiation.cpp(1529): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>vessel_assosiation.cpp(1536): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>vessel_assosiation.cpp(1614): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>vessel_assosiation.cpp(1615): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>vessel_assosiation.cpp(1675): warning C4244: 'argument' : conversion from 'double' to '__int64', possible loss of data
+     1>vessel_assosiation.cpp(1686): warning C4244: 'argument' : conversion from 'double' to '__int64', possible loss of data
+     1>vessel_assosiation.cpp(1703): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'double', possible loss of data
+     1>vessel_assosiation.cpp(1817): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\algorithm(277): warning C4267: 'argument' : conversion from 'size_t' to 'const int', possible loss of data
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\algorithm(300) : see reference to function template instantiation '_OutIt std::_Copy_if<_InIt,_OutIt,_Pr>(_InIt,_InIt,_OutIt,_Pr)' being compiled
+                 with
+                 [
+                     _OutIt=std::back_insert_iterator<std::vector<int>>,
+                     _InIt=unsigned __int64 *,
+                     _Pr=`anonymous-namespace'::<lambda4>
+                 ]
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\algorithm(324) : see reference to function template instantiation '_OutIt std::_Copy_if<unsigned __int64*,_OutIt,_Pr>(_InIt,_InIt,_OutIt,_Pr,std::tr1::true_type)' being compiled
+                 with
+                 [
+                     _OutIt=std::back_insert_iterator<std::vector<int>>,
+                     _Pr=`anonymous-namespace'::<lambda4>,
+                     _InIt=unsigned __int64 *
+                 ]
+                 vessel_assosiation.cpp(1583) : see reference to function template instantiation '_OutIt std::copy_if<std::_Vector_iterator<_Myvec>,std::back_insert_iterator<_Container>,`anonymous-namespace'::<lambda4>>(_InIt,_InIt,_OutIt,_Pr)' being compiled
+                 with
+                 [
+                     _OutIt=std::back_insert_iterator<std::vector<int>>,
+                     _Myvec=std::_Vector_val<size_t,std::allocator<size_t>>,
+                     _Container=std::vector<int>,
+                     _InIt=std::_Vector_iterator<std::_Vector_val<size_t,std::allocator<size_t>>>,
+                     _Pr=`anonymous-namespace'::<lambda4>
+                 ]
+     1>c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\algorithm(277): warning C4267: 'argument' : conversion from 'size_t' to 'const int', possible loss of data
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\algorithm(300) : see reference to function template instantiation '_OutIt std::_Copy_if<_InIt,_OutIt,_Pr>(_InIt,_InIt,_OutIt,_Pr)' being compiled
+                 with
+                 [
+                     _OutIt=std::back_insert_iterator<std::vector<int>>,
+                     _InIt=unsigned __int64 *,
+                     _Pr=`anonymous-namespace'::<lambda5>
+                 ]
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\algorithm(324) : see reference to function template instantiation '_OutIt std::_Copy_if<unsigned __int64*,_OutIt,_Pr>(_InIt,_InIt,_OutIt,_Pr,std::tr1::true_type)' being compiled
+                 with
+                 [
+                     _OutIt=std::back_insert_iterator<std::vector<int>>,
+                     _Pr=`anonymous-namespace'::<lambda5>,
+                     _InIt=unsigned __int64 *
+                 ]
+                 vessel_assosiation.cpp(1779) : see reference to function template instantiation '_OutIt std::copy_if<std::_Vector_iterator<_Myvec>,std::back_insert_iterator<_Container>,`anonymous-namespace'::<lambda5>>(_InIt,_InIt,_OutIt,_Pr)' being compiled
+                 with
+                 [
+                     _OutIt=std::back_insert_iterator<std::vector<int>>,
+                     _Myvec=std::_Vector_val<size_t,std::allocator<size_t>>,
+                     _Container=std::vector<int>,
+                     _InIt=std::_Vector_iterator<std::_Vector_val<size_t,std::allocator<size_t>>>,
+                     _Pr=`anonymous-namespace'::<lambda5>
+                 ]
+     1>c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(163): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(195) : see reference to function template instantiation 'std::_Pair_base<_Ty1,_Ty2>::_Pair_base<_Ty1&,unsigned __int64&>(_Other1,_Other2)' being compiled
+                 with
+                 [
+                     _Ty1=double,
+                     _Ty2=int,
+                     _Other1=double &,
+                     _Other2=size_t &
+                 ]
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\algorithm(3720) : see reference to function template instantiation 'std::pair<_Ty1,_Ty2>::pair<double,size_t>(std::pair<_Ty1,size_t> &)' being compiled
+                 with
+                 [
+                     _Ty1=double,
+                     _Ty2=int
+                 ]
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\algorithm(3776) : see reference to function template instantiation 'std::pair<_Ty1,_Ty2> std::_Unguarded_partition<_RanIt,bool(__cdecl *)(mypair,mypair)>(_RanIt,_RanIt,_Pr)' being compiled
+                 with
+                 [
+                     _Ty1=std::pair<double,size_t> ,
+                     _Ty2=std::pair<double,size_t> ,
+                     _RanIt=std::pair<double,size_t> ,
+                     _Pr=bool (__cdecl *)(mypair,mypair)
+                 ]
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\algorithm(3806) : see reference to function template instantiation 'void std::_Sort<std::pair<_Ty1,_Ty2>*,__int64,bool(__cdecl *)(mypair,mypair)>(_RanIt,_RanIt,_Diff,_Pr)' being compiled
+                 with
+                 [
+                     _Ty1=double,
+                     _Ty2=size_t,
+                     _RanIt=std::pair<double,size_t> ,
+                     _Diff=__int64,
+                     _Pr=bool (__cdecl *)(mypair,mypair)
+                 ]
+                 vessel_assosiation.cpp(364) : see reference to function template instantiation 'void std::sort<std::_Vector_iterator<_Myvec>,bool(__cdecl *)(mypair,mypair)>(_RanIt,_RanIt,_Pr)' being compiled
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::pair<double,size_t>,std::allocator<std::pair<double,size_t>>>,
+                     _RanIt=std::_Vector_iterator<std::_Vector_val<std::pair<double,size_t>,std::allocator<std::pair<double,size_t>>>>,
+                     _Pr=bool (__cdecl *)(mypair,mypair)
+                 ]
+     1>S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/strategies/cartesian/side_by_triangle.hpp(96): warning C4244: 'initializing' : conversion from 'const coordinate_type' to 'const promoted_type', possible loss of data
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/strategies/cartesian/side_by_triangle.hpp(138) : see reference to function template instantiation 'PromotedType boost::geometry::strategy::side::side_by_triangle<>::side_value<CoordinateType,PromotedType,P1,P2,P,EpsPolicy>(const P1 &,const P2 &,const P &,EpsPolicy &)' being compiled
+                 with
+                 [
+                     PromotedType=promoted_type,
+                     CoordinateType=coordinate_type,
+                     P1=robust_point_type,
+                     P2=robust_point_type,
+                     P=robust_point_type,
+                     EpsPolicy=boost::geometry::strategy::side::side_by_triangle<>::eps_policy<boost::geometry::math::detail::equals_factor_policy<promoted_type>>
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/strategies/cartesian/side_by_triangle.hpp(234) : see reference to function template instantiation 'PromotedType boost::geometry::strategy::side::side_by_triangle<>::compute_side_value<CoordinateType,PromotedType,AreAllIntegralCoordinates>::apply<P1,P2,P,boost::geometry::strategy::side::side_by_triangle<>::eps_policy<Policy>>(const P1 &,const P2 &,const P &,EpsPolicy &)' being compiled
+                 with
+                 [
+                     PromotedType=promoted_type,
+                     CoordinateType=coordinate_type,
+                     AreAllIntegralCoordinates=true,
+                     P1=robust_point_type,
+                     P2=robust_point_type,
+                     P=robust_point_type,
+                     Policy=boost::geometry::math::detail::equals_factor_policy<promoted_type>,
+                     EpsPolicy=boost::geometry::strategy::side::side_by_triangle<>::eps_policy<boost::geometry::math::detail::equals_factor_policy<promoted_type>>
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/point_is_spike_or_equal.hpp(51) : see reference to function template instantiation 'int boost::geometry::strategy::side::side_by_triangle<>::apply<Point1,Point2,Point3>(const P1 &,const P2 &,const P &)' being compiled
+                 with
+                 [
+                     Point1=robust_point_type,
+                     Point2=robust_point_type,
+                     Point3=robust_point_type,
+                     P1=robust_point_type,
+                     P2=robust_point_type,
+                     P=robust_point_type
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/point_is_spike_or_equal.hpp(117) : see reference to function template instantiation 'bool boost::geometry::detail::point_is_spike_or_equal<robust_point_type,robust_point_type,robust_point_type>(const Point1 &,const Point2 &,const Point3 &)' being compiled
+                 with
+                 [
+                     Point1=robust_point_type,
+                     Point2=robust_point_type,
+                     Point3=robust_point_type
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/append_no_dups_or_spikes.hpp(95) : see reference to function template instantiation 'bool boost::geometry::detail::point_is_spike_or_equal<Point,boost::geometry::model::d2::point_xy<CoordinateType>,boost::geometry::model::d2::point_xy<CoordinateType>,RobustPolicy>(const Point1 &,const Point2 &,const Point3 &,const RobustPolicy &)' being compiled
+                 with
+                 [
+                     Point=point_type,
+                     CoordinateType=double,
+                     RobustPolicy=rescale_policy_type,
+                     Point1=point_type,
+                     Point2=boost::geometry::model::d2::point_xy<double>,
+                     Point3=boost::geometry::model::d2::point_xy<double>
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/traverse.hpp(289) : see reference to function template instantiation 'void boost::geometry::detail::overlay::append_no_dups_or_spikes<ring_type,Point,RobustPolicy>(Range &,const Point &,const RobustPolicy &)' being compiled
+                 with
+                 [
+                     Point=point_type,
+                     RobustPolicy=rescale_policy_type,
+                     Range=ring_type
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/overlay.hpp(232) : see reference to function template instantiation 'void boost::geometry::detail::overlay::traverse<Reverse1,Reverse2,Geometry1,Geometry2>::apply<RobustPolicy,container_type,ring_container_type>(const Geometry1 &,const Geometry2 &,boost::geometry::detail::overlay::operation_type,const RobustPolicy &,Turns &,Rings &)' being compiled
+                 with
+                 [
+                     Reverse1=false,
+                     Reverse2=false,
+                     Geometry1=polygon_2d,
+                     Geometry2=polygon_2d,
+                     RobustPolicy=rescale_policy_type,
+                     Turns=container_type,
+                     Rings=ring_container_type
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/union.hpp(232) : see reference to function template instantiation 'OutputIterator boost::geometry::detail::overlay::overlay<Geometry1,Geometry2,Reverse1,Reverse2,ReverseOut,GeometryOut,Direction>::apply<rescale_policy_type,OutputIterator,boost::geometry::strategy_intersection<Tag,Geometry1,Geometry2,IntersectionPoint,RobustPolicy>>(const Geometry1 &,const Geometry2 &,const RobustPolicy &,OutputIterator,const Strategy &)' being compiled
+                 with
+                 [
+                     OutputIterator=std::back_insert_iterator<std::deque<polygon>>,
+                     Geometry1=polygon_2d,
+                     Geometry2=polygon_2d,
+                     Reverse1=false,
+                     Reverse2=false,
+                     ReverseOut=false,
+                     GeometryOut=geometry_out,
+                     Direction=overlay_union,
+                     Tag=boost::geometry::cartesian_tag,
+                     IntersectionPoint=boost::geometry::model::d2::point_xy<double>,
+                     RobustPolicy=rescale_policy_type,
+                     Strategy=boost::geometry::strategy_intersection<boost::geometry::cartesian_tag,polygon_2d,polygon_2d,boost::geometry::model::d2::point_xy<double>,rescale_policy_type>
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/union.hpp(274) : see reference to function template instantiation 'OutputIterator boost::geometry::detail::union_::union_insert<geometry_out,Geometry1,Geometry2,std::back_insert_iterator<_Container>>(const Geometry1 &,const Geometry2 &,OutputIterator)' being compiled
+                 with
+                 [
+                     OutputIterator=std::back_insert_iterator<std::deque<polygon>>,
+                     Geometry1=polygon_2d,
+                     Geometry2=polygon_2d,
+                     _Container=std::deque<polygon>
+                 ]
+                 vessel_assosiation.cpp(748) : see reference to function template instantiation 'void boost::geometry::union_<polygon_2d,polygon_2d,std::deque<_Ty>>(const Geometry1 &,const Geometry2 &,Collection &)' being compiled
+                 with
+                 [
+                     _Ty=polygon,
+                     Geometry1=polygon_2d,
+                     Geometry2=polygon_2d,
+                     Collection=std::deque<polygon>
+                 ]
+     1>S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/strategies/cartesian/side_by_triangle.hpp(97): warning C4244: 'initializing' : conversion from 'const coordinate_type' to 'const promoted_type', possible loss of data
+     1>S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/strategies/cartesian/side_by_triangle.hpp(98): warning C4244: 'initializing' : conversion from 'const coordinate_type' to 'const promoted_type', possible loss of data
+     1>S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/strategies/cartesian/side_by_triangle.hpp(99): warning C4244: 'initializing' : conversion from 'const coordinate_type' to 'const promoted_type', possible loss of data
+     1>S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/recalculate.hpp(51): warning C4244: 'argument' : conversion from '__int64' to 'const double', possible loss of data
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/recalculate.hpp(224) : see reference to function template instantiation 'void boost::geometry::detail::recalculate::recalculate_point<Dimension>::apply<Geometry1,Geometry2,Strategy>(Point1 &,const Point2 &,const Strategy &)' being compiled
+                 with
+                 [
+                     Dimension=0x02,
+                     Geometry1=boost::geometry::model::d2::point_xy<double>,
+                     Geometry2=boost::geometry::model::d2::point_xy<double>,
+                     Strategy=rescale_policy_type,
+                     Point1=boost::geometry::model::d2::point_xy<double>,
+                     Point2=boost::geometry::model::d2::point_xy<double>
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/handle_tangencies.hpp(109) : see reference to function template instantiation 'void boost::geometry::recalculate<boost::geometry::model::d2::point_xy<CoordinateType>,boost::geometry::model::d2::point_xy<CoordinateType>,const RobustPolicy>(Geometry1 &,const Geometry2 &,const Strategy &)' being compiled
+                 with
+                 [
+                     CoordinateType=double,
+                     RobustPolicy=rescale_policy_type,
+                     Geometry1=boost::geometry::model::d2::point_xy<double>,
+                     Geometry2=boost::geometry::model::d2::point_xy<double>,
+                     Strategy=rescale_policy_type
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/handle_tangencies.hpp(96) : while compiling class template member function 'void boost::geometry::detail::overlay::sort_in_cluster<TurnPoints,Indexed,Geometry1,Geometry2,RobustPolicy,Reverse1,Reverse2,Strategy>::get_situation_map(const Indexed &,const Indexed &,boost::geometry::model::d2::point_xy<CoordinateType> &,boost::geometry::model::d2::point_xy<CoordinateType> &,boost::geometry::model::d2::point_xy<CoordinateType> &,boost::geometry::model::d2::point_xy<CoordinateType> &,boost::geometry::model::d2::point_xy<CoordinateType> &,boost::geometry::model::d2::point_xy<CoordinateType> &) const'
+                 with
+                 [
+                     TurnPoints=container_type,
+                     Indexed=indexed_turn_operation,
+                     Geometry1=polygon_2d,
+                     Geometry2=polygon_2d,
+                     RobustPolicy=const rescale_policy_type,
+                     Reverse1=false,
+                     Reverse2=false,
+                     Strategy=boost::geometry::strategy::side::side_by_triangle<>,
+                     CoordinateType=double
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/handle_tangencies.hpp(742) : see reference to class template instantiation 'boost::geometry::detail::overlay::sort_in_cluster<TurnPoints,Indexed,Geometry1,Geometry2,RobustPolicy,Reverse1,Reverse2,Strategy>' being compiled
+                 with
+                 [
+                     TurnPoints=container_type,
+                     Indexed=indexed_turn_operation,
+                     Geometry1=polygon_2d,
+                     Geometry2=polygon_2d,
+                     RobustPolicy=const rescale_policy_type,
+                     Reverse1=false,
+                     Reverse2=false,
+                     Strategy=boost::geometry::strategy::side::side_by_triangle<>
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/enrich_intersection_points.hpp(290) : see reference to function template instantiation 'void boost::geometry::detail::overlay::handle_cluster<IndexType,false,false,nc_iterator,TurnPoints,Geometry1,Geometry2,const RobustPolicy,Strategy>(Iterator,Iterator,TurnPoints &,boost::geometry::detail::overlay::operation_type,const Geometry1 &,const Geometry2 &,RobustPolicy &,const Strategy &)' being compiled
+                 with
+                 [
+                     IndexType=indexed_turn_operation,
+                     TurnPoints=container_type,
+                     Geometry1=polygon_2d,
+                     Geometry2=polygon_2d,
+                     RobustPolicy=rescale_policy_type,
+                     Strategy=boost::geometry::strategy::side::side_by_triangle<>,
+                     Iterator=nc_iterator
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/enrich_intersection_points.hpp(533) : see reference to function template instantiation 'void boost::geometry::detail::overlay::enrich_sort<indexed_turn_operation,false,false,_Ty2,TurnPoints,Geometry1,Geometry2,RobustPolicy,Strategy>(Container &,TurnPoints &,boost::geometry::detail::overlay::operation_type,const Geometry1 &,const Geometry2 &,const RobustPolicy &,const Strategy &)' being compiled
+                 with
+                 [
+                     _Ty2=std::vector<indexed_turn_operation>,
+                     TurnPoints=container_type,
+                     Geometry1=polygon_2d,
+                     Geometry2=polygon_2d,
+                     RobustPolicy=rescale_policy_type,
+                     Strategy=boost::geometry::strategy::side::side_by_triangle<>,
+                     Container=std::vector<indexed_turn_operation>
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/overlay.hpp(215) : see reference to function template instantiation 'void boost::geometry::enrich_intersection_points<false,false,container_type,Geometry1,Geometry2,RobustPolicy,boost::geometry::strategy::side::side_by_triangle<>>(TurnPoints &,boost::geometry::detail::overlay::operation_type,const Geometry1 &,const Geometry2 &,const RobustPolicy &,const Strategy &)' being compiled
+                 with
+                 [
+                     Geometry1=polygon_2d,
+                     Geometry2=polygon_2d,
+                     RobustPolicy=rescale_policy_type,
+                     TurnPoints=container_type,
+                     Strategy=boost::geometry::strategy::side::side_by_triangle<>
+                 ]
+     1>S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/recalculate.hpp(51): warning C4244: 'argument' : conversion from '__int64' to 'const double', possible loss of data
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/recalculate.hpp(52) : see reference to function template instantiation 'void boost::geometry::detail::recalculate::recalculate_point<Dimension>::apply<Point1,Point2,Strategy>(Point1 &,const Point2 &,const Strategy &)' being compiled
+                 with
+                 [
+                     Dimension=0x01,
+                     Point1=boost::geometry::model::d2::point_xy<double>,
+                     Point2=boost::geometry::model::d2::point_xy<double>,
+                     Strategy=rescale_policy_type
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/recalculate.hpp(224) : see reference to function template instantiation 'void boost::geometry::detail::recalculate::recalculate_point<Dimension>::apply<Geometry1,Geometry2,Strategy>(Point1 &,const Point2 &,const Strategy &)' being compiled
+                 with
+                 [
+                     Dimension=0x02,
+                     Geometry1=boost::geometry::model::d2::point_xy<double>,
+                     Geometry2=boost::geometry::model::d2::point_xy<double>,
+                     Strategy=rescale_policy_type,
+                     Point1=boost::geometry::model::d2::point_xy<double>,
+                     Point2=boost::geometry::model::d2::point_xy<double>
+                 ]
+     1>S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/strategies/cartesian/side_by_triangle.hpp(88): warning C4244: 'initializing' : conversion from '__int64' to 'const coordinate_type', possible loss of data
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/strategies/cartesian/side_by_triangle.hpp(138) : see reference to function template instantiation 'PromotedType boost::geometry::strategy::side::side_by_triangle<CalculationType>::side_value<CoordinateType,PromotedType,P1,P2,P,EpsPolicy>(const P1 &,const P2 &,const P &,EpsPolicy &)' being compiled
+                 with
+                 [
+                     PromotedType=promoted_type,
+                     CalculationType=coordinate_type,
+                     CoordinateType=coordinate_type,
+                     P1=robust_point_type,
+                     P2=robust_point_type,
+                     P=robust_point_type,
+                     EpsPolicy=boost::geometry::strategy::side::side_by_triangle<coordinate_type>::eps_policy<boost::geometry::math::detail::equals_factor_policy<promoted_type>>
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/strategies/cartesian/side_by_triangle.hpp(234) : see reference to function template instantiation 'PromotedType boost::geometry::strategy::side::side_by_triangle<CalculationType>::compute_side_value<CoordinateType,PromotedType,AreAllIntegralCoordinates>::apply<P1,P2,P,boost::geometry::strategy::side::side_by_triangle<CalculationType>::eps_policy<Policy>>(const P1 &,const P2 &,const P &,EpsPolicy &)' being compiled
+                 with
+                 [
+                     PromotedType=promoted_type,
+                     CalculationType=coordinate_type,
+                     CoordinateType=coordinate_type,
+                     AreAllIntegralCoordinates=true,
+                     P1=robust_point_type,
+                     P2=robust_point_type,
+                     P=robust_point_type,
+                     Policy=boost::geometry::math::detail::equals_factor_policy<promoted_type>,
+                     EpsPolicy=boost::geometry::strategy::side::side_by_triangle<coordinate_type>::eps_policy<boost::geometry::math::detail::equals_factor_policy<promoted_type>>
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/strategies/cartesian/cart_intersect.hpp(140) : see reference to function template instantiation 'int boost::geometry::strategy::side::side_by_triangle<CalculationType>::apply<RobustPoint,RobustPoint,RobustPoint>(const P1 &,const P2 &,const P &)' being compiled
+                 with
+                 [
+                     CalculationType=coordinate_type,
+                     RobustPoint=robust_point_type,
+                     P1=robust_point_type,
+                     P2=robust_point_type,
+                     P=robust_point_type
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/strategies/cartesian/cart_intersect.hpp(107) : see reference to function template instantiation 'boost::tuples::tuple<T0,T1> boost::geometry::strategy::intersection::relate_cartesian_segments<Policy,CalculationType>::apply<Segment1,Segment2,RobustPolicy,robust_point_type>(const Segment1 &,const Segment2 &,const RobustPolicy &,const RobustPoint &,const RobustPoint &,const RobustPoint &,const RobustPoint &)' being compiled
+                 with
+                 [
+                     T0=boost::geometry::segment_intersection_points<boost::geometry::model::d2::point_xy<double>,boost::geometry::segment_ratio_type<boost::geometry::model::d2::point_xy<double>,rescale_policy_type>::type>,
+                     T1=boost::geometry::policies::relate::segments_direction::return_type,
+                     Policy=boost::geometry::policies::relate::segments_tupled<boost::geometry::policies::relate::segments_intersection_points<boost::geometry::segment_intersection_points<boost::geometry::model::d2::point_xy<double>,boost::geometry::segment_ratio_type<boost::geometry::model::d2::point_xy<double>,rescale_policy_type>::type>>,boost::geometry::policies::relate::segments_direction>,
+                     CalculationType=void,
+                     Segment1=boost::geometry::model::referring_segment<const boost::geometry::model::d2::point_xy<double>>,
+                     Segment2=boost::geometry::model::referring_segment<const boost::geometry::model::d2::point_xy<double>>,
+                     RobustPolicy=rescale_policy_type,
+                     RobustPoint=robust_point_type
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/get_turn_info_helpers.hpp(220) : see reference to function template instantiation 'boost::tuples::tuple<T0,T1> boost::geometry::strategy::intersection::relate_cartesian_segments<Policy,CalculationType>::apply<boost::geometry::model::referring_segment<ConstOrNonConstPoint>,boost::geometry::model::referring_segment<ConstOrNonConstPoint>,RobustPolicy>(const Segment1 &,const Segment2 &,const RobustPolicy &)' being compiled
+                 with
+                 [
+                     T0=boost::geometry::segment_intersection_points<boost::geometry::model::d2::point_xy<double>,boost::geometry::segment_ratio_type<boost::geometry::model::d2::point_xy<double>,rescale_policy_type>::type>,
+                     T1=boost::geometry::policies::relate::segments_direction::return_type,
+                     Policy=boost::geometry::policies::relate::segments_tupled<boost::geometry::policies::relate::segments_intersection_points<boost::geometry::segment_intersection_points<boost::geometry::model::d2::point_xy<double>,boost::geometry::segment_ratio_type<boost::geometry::model::d2::point_xy<double>,rescale_policy_type>::type>>,boost::geometry::policies::relate::segments_direction>,
+                     CalculationType=void,
+                     ConstOrNonConstPoint=const boost::geometry::model::d2::point_xy<double>,
+                     RobustPolicy=rescale_policy_type,
+                     Segment1=boost::geometry::model::referring_segment<const boost::geometry::model::d2::point_xy<double>>,
+                     Segment2=boost::geometry::model::referring_segment<const boost::geometry::model::d2::point_xy<double>>
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/get_turn_info_helpers.hpp(214) : while compiling class template member function 'boost::geometry::detail::overlay::intersection_info<Point1,Point2,TurnPoint,RobustPolicy>::intersection_info(const Point1 &,const Point1 &,const Point1 &,const Point2 &,const Point2 &,const Point2 &,const RobustPolicy &)'
+                 with
+                 [
+                     Point1=boost::geometry::model::d2::point_xy<double>,
+                     Point2=boost::geometry::model::d2::point_xy<double>,
+                     TurnPoint=boost::geometry::model::d2::point_xy<double>,
+                     RobustPolicy=rescale_policy_type
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/get_turn_info.hpp(926) : see reference to class template instantiation 'boost::geometry::detail::overlay::intersection_info<Point1,Point2,TurnPoint,RobustPolicy>' being compiled
+                 with
+                 [
+                     Point1=boost::geometry::model::d2::point_xy<double>,
+                     Point2=boost::geometry::model::d2::point_xy<double>,
+                     TurnPoint=boost::geometry::model::d2::point_xy<double>,
+                     RobustPolicy=rescale_policy_type
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/get_turns.hpp(297) : see reference to function template instantiation 'OutputIterator boost::geometry::detail::overlay::get_turn_info<AssignPolicy>::apply<boost::geometry::model::d2::point_xy<CoordinateType>,boost::geometry::model::d2::point_xy<CoordinateType>,turn_info,RobustPolicy,std::back_insert_iterator<_Container>>(const Point1 &,const Point1 &,const Point1 &,const Point2 &,const Point2 &,const Point2 &,bool,bool,bool,bool,const TurnInfo &,const RobustPolicy &,OutputIterator)' being compiled
+                 with
+                 [
+                     OutputIterator=std::back_insert_iterator<container_type>,
+                     AssignPolicy=boost::geometry::detail::overlay::assign_null_policy,
+                     CoordinateType=double,
+                     RobustPolicy=rescale_policy_type,
+                     _Container=container_type,
+                     Point1=boost::geometry::model::d2::point_xy<double>,
+                     Point2=boost::geometry::model::d2::point_xy<double>,
+                     TurnInfo=turn_info
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/get_turns.hpp(426) : see reference to function template instantiation 'bool boost::geometry::detail::get_turns::get_turns_in_sections<Geometry1,Geometry2,Reverse1,Reverse2,Section1,Section2,TurnPolicy>::apply<Turns,RobustPolicy,InterruptPolicy>(int,const Geometry1 &,const Section1 &,int,const Geometry2 &,const Section2 &,bool,const RobustPolicy &,Turns &,InterruptPolicy &)' being compiled
+                 with
+                 [
+                     Geometry1=polygon_2d,
+                     Geometry2=polygon_2d,
+                     Reverse1=false,
+                     Reverse2=false,
+                     Section1=boost::geometry::section<box_type,0x02>,
+                     Section2=boost::geometry::section<box_type,0x02>,
+                     TurnPolicy=TurnPolicy,
+                     Turns=container_type,
+                     RobustPolicy=rescale_policy_type,
+                     InterruptPolicy=boost::geometry::detail::get_turns::no_interrupt_policy
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/partition.hpp(641) : see reference to function template instantiation 'bool boost::geometry::detail::get_turns::section_visitor<Geometry1,Geometry2,Reverse1,Reverse2,Turns,TurnPolicy,RobustPolicy,InterruptPolicy>::apply<boost::geometry::section<Box,DimensionCount>>(const Section &,const Section &)' being compiled
+                 with
+                 [
+                     Geometry1=polygon_2d,
+                     Geometry2=polygon_2d,
+                     Reverse1=false,
+                     Reverse2=false,
+                     Turns=container_type,
+                     TurnPolicy=TurnPolicy,
+                     RobustPolicy=rescale_policy_type,
+                     InterruptPolicy=boost::geometry::detail::get_turns::no_interrupt_policy,
+                     Box=box_type,
+                     DimensionCount=0x02,
+                     Section=boost::geometry::section<box_type,0x02>
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/get_turns.hpp(485) : see reference to function template instantiation 'void boost::geometry::partition<Box,ExpandPolicy1,OverlapsPolicy1>::apply<sections_type,sections_type,boost::geometry::detail::get_turns::section_visitor<Geometry1,Geometry2,Reverse1,Reverse2,Turns,TurnPolicy,RobustPolicy,InterruptPolicy>>(const InputCollection1 &,const InputCollection2 &,VisitPolicy &,size_t,VisitBoxPolicy)' being compiled
+                 with
+                 [
+                     Box=box_type,
+                     ExpandPolicy1=boost::geometry::detail::section::get_section_box,
+                     OverlapsPolicy1=boost::geometry::detail::section::overlaps_section_box,
+                     Geometry1=polygon_2d,
+                     Geometry2=polygon_2d,
+                     Reverse1=false,
+                     Reverse2=false,
+                     Turns=container_type,
+                     TurnPolicy=TurnPolicy,
+                     RobustPolicy=rescale_policy_type,
+                     InterruptPolicy=boost::geometry::detail::get_turns::no_interrupt_policy,
+                     InputCollection1=sections_type,
+                     InputCollection2=sections_type,
+                     VisitPolicy=boost::geometry::detail::get_turns::section_visitor<polygon_2d,polygon_2d,false,false,container_type,TurnPolicy,rescale_policy_type,boost::geometry::detail::get_turns::no_interrupt_policy>,
+                     VisitBoxPolicy=boost::geometry::detail::partition::visit_no_policy
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/get_turns.hpp(1002) : see reference to function template instantiation 'void boost::geometry::detail::get_turns::get_turns_generic<Geometry1,Geometry2,Reverse1,Reverse2,TurnPolicy>::apply<RobustPolicy,Turns,InterruptPolicy>(int,const Geometry1 &,int,const Geometry2 &,const RobustPolicy &,Turns &,InterruptPolicy &)' being compiled
+                 with
+                 [
+                     Geometry1=polygon_2d,
+                     Geometry2=polygon_2d,
+                     Reverse1=false,
+                     Reverse2=false,
+                     TurnPolicy=TurnPolicy,
+                     RobustPolicy=rescale_policy_type,
+                     Turns=container_type,
+                     InterruptPolicy=boost::geometry::detail::get_turns::no_interrupt_policy
+                 ]
+                 S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/algorithms/detail/overlay/overlay.hpp(203) : see reference to function template instantiation 'void boost::geometry::get_turns<false,false,boost::geometry::detail::overlay::assign_null_policy,Geometry1,Geometry2,RobustPolicy,container_type,boost::geometry::detail::get_turns::no_interrupt_policy>(const Geometry1 &,const Geometry2 &,const RobustPolicy &,Turns &,InterruptPolicy &)' being compiled
+                 with
+                 [
+                     Geometry1=polygon_2d,
+                     Geometry2=polygon_2d,
+                     RobustPolicy=rescale_policy_type,
+                     Turns=container_type,
+                     InterruptPolicy=boost::geometry::detail::get_turns::no_interrupt_policy
+                 ]
+     1>S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/strategies/cartesian/side_by_triangle.hpp(89): warning C4244: 'initializing' : conversion from '__int64' to 'const coordinate_type', possible loss of data
+     1>S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/strategies/cartesian/side_by_triangle.hpp(91): warning C4244: 'initializing' : conversion from '__int64' to 'const coordinate_type', possible loss of data
+     1>S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/strategies/cartesian/side_by_triangle.hpp(92): warning C4244: 'initializing' : conversion from '__int64' to 'const coordinate_type', possible loss of data
+     1>S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/strategies/cartesian/side_by_triangle.hpp(93): warning C4244: 'initializing' : conversion from '__int64' to 'const coordinate_type', possible loss of data
+     1>S:\TryBoost\boost_1_58_0\boost_1_58_0\boost/geometry/strategies/cartesian/side_by_triangle.hpp(94): warning C4244: 'initializing' : conversion from '__int64' to 'const coordinate_type', possible loss of data
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\Read_data\cvtest\x64\Debug\cvtest.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\x64\vc10\lib /LIBPATH:"C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\armadillo-5.200.1\armadillo-5.200.1\examples\lib_win64" /LIBPATH:"S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug" /LIBPATH:"C:\Program Files\VTK\lib" /LIBPATH:"C:\Program Files\VTK\bin" opencv_core244d.lib opencv_imgproc244d.lib opencv_highgui244d.lib opencv_ml244d.lib opencv_video244d.lib opencv_features2d244d.lib opencv_calib3d244d.lib opencv_objdetect244d.lib opencv_contrib244d.lib opencv_legacy244d.lib opencv_flann244d.lib "C:\Program Files\MATLAB\R2013a\extern\lib\win64\microsoft\libmx.lib" "C:\Program Files\MATLAB\R2013a\extern\lib\win64\microsoft\libmex.lib" "C:\Program Files\MATLAB\R2013a\extern\lib\win64\microsoft\libmat.lib" "C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\armadillo-5.200.1\armadillo-5.200.1\examples\lib_win64\blas_win64_MT.lib" "C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\armadillo-5.200.1\armadillo-5.200.1\examples\lib_win64\lapack_win64_MT.lib" "S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libCbc.lib" "S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libCbcSolver.lib" "S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libCgl.lib" "S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libClp.lib" "S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libCoinUtils.lib" "S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libOsi.lib" "S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libOsiCbc.lib" "S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libOsiClp.lib" "S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libOsiCommonTest.lib" "C:\Program Files\VTK\lib\vtk*-6.2.lib" /MANIFEST /ManifestFile:"x64\Debug\cvtest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\Read_data\cvtest\x64\Debug\cvtest.pdb" /SUBSYSTEM:CONSOLE /STACK:"4194304","4194304" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\Read_data\cvtest\x64\Debug\cvtest.lib" /MACHINE:X64 x64\Debug\alglibinternal.obj
+         x64\Debug\alglibmisc.obj
+         x64\Debug\ap.obj
+         x64\Debug\integration.obj
+         x64\Debug\interpolation.obj
+         x64\Debug\linalg.obj
+         x64\Debug\optimization.obj
+         x64\Debug\solvers.obj
+         x64\Debug\specialfunctions.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\vessel_assosiation.obj
+         cvtest.vcxproj -> C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\Read_data\cvtest\x64\Debug\cvtest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\Read_data\cvtest\x64\Debug\cvtest.exe;#1" /manifest x64\Debug\cvtest.exe.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\cvtest.unsuccessfulbuild".
+         Touching "x64\Debug\cvtest.lastbuildstate".
+     1>Done Building Project "C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\Read_data\cvtest\cvtest\cvtest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.34

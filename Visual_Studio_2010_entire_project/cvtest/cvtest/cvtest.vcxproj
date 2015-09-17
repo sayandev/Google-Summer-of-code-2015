@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{64BF6ED7-2E39-43AC-BFA4-515DFB4717D6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>cvtest</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(OPENCV_DIR)\include\opencv2;$(OPENCV_DIR)\include\opencv;$(OPENCV_DIR)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OPENCV_DIR)\x64\vc10\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(OPENCV_DIR)\include;$(OPENCV_DIR)\include\opencv;$(OPENCV_DIR)\include\opencv2;$(ARMADILLO_ROOT)\include;S:\TryBoost\boost_1_58_0\boost_1_58_0;S:\CbC\Cbc-2.9.5;C:\Program Files\VTK\include\vtk-6.2;C:\Program Files\VTK\bin\;C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\cvblob-0.10.4-src\cvblob\cvBlob;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OPENCV_DIR)\x64\vc10\lib;$(ARMADILLO_ROOT)\examples\lib_win64;S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug;C:\Program Files\VTK\lib;C:\Program Files\VTK\bin;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(OPENCV_DIR)\include;$(OPENCV_DIR)\include\opencv;$(OPENCV_DIR)\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OPENCV_DIR)\x64\vc10\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(OPENCV_DIR)\include\opencv2;$(OPENCV_DIR)\include\opencv;$(OPENCV_DIR)\include;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\bin\win64;C:\Program Files\MATLAB\R2013a\extern\include;C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\alglib-3.9.0.cpp.gpl_test\cpp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OPENCV_DIR)\x64\vc10\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_core244d.lib;opencv_imgproc244d.lib;opencv_highgui244d.lib;opencv_ml244d.lib;opencv_video244d.lib;opencv_features2d244d.lib;opencv_calib3d244d.lib;opencv_objdetect244d.lib;opencv_contrib244d.lib;opencv_legacy244d.lib;opencv_flann244d.lib;C:\Program Files\MATLAB\R2013a\extern\lib\win64\microsoft\libmx.lib;C:\Program Files\MATLAB\R2013a\extern\lib\win64\microsoft\libmex.lib;C:\Program Files\MATLAB\R2013a\extern\lib\win64\microsoft\libmat.lib;C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\alglib-3.9.0.cpp.gpl_test\cpp\src\ap.o;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\bin\win64;C:\Program Files\MATLAB\R2013a\extern\include;$(OPENCV_DIR)\include;$(OPENCV_DIR)\include\opencv;$(OPENCV_DIR)\include\opencv2;C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\alglib-3.9.0.cpp.gpl_test\cpp\src;C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\armadillo-5.200.1\armadillo-5.200.1\include\armadillo_bits;S:\TryBoost\boost_1_58_0\boost_1_58_0;S:\CbC\Cbc-2.9.5\Cbc\src;S:\CbC\Cbc-2.9.5\CoinUtils\src;S:\CbC\Cbc-2.9.5\Cgl\src;S:\CbC\Cbc-2.9.5\Clp\src;S:\CbC\Cbc-2.9.5\Osi\src;S:\CbC\Cbc-2.9.5\Osi\src\Osi;C:\Program Files\VTK\include\vtk-6.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OPENCV_DIR)\x64\vc10\lib;$(ARMADILLO_ROOT)\examples\lib_win64;S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug;C:\Program Files\VTK\lib;C:\Program Files\VTK\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_core244d.lib;opencv_imgproc244d.lib;opencv_highgui244d.lib;opencv_ml244d.lib;opencv_video244d.lib;opencv_features2d244d.lib;opencv_calib3d244d.lib;opencv_objdetect244d.lib;opencv_contrib244d.lib;opencv_legacy244d.lib;opencv_flann244d.lib;C:\Program Files\MATLAB\R2013a\extern\lib\win64\microsoft\libmx.lib;C:\Program Files\MATLAB\R2013a\extern\lib\win64\microsoft\libmex.lib;C:\Program Files\MATLAB\R2013a\extern\lib\win64\microsoft\libmat.lib;C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\armadillo-5.200.1\armadillo-5.200.1\examples\lib_win64\blas_win64_MT.lib;C:\Users\Sayan\Dropbox\GSoC_2015\Implementation\armadillo-5.200.1\armadillo-5.200.1\examples\lib_win64\lapack_win64_MT.lib;S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libCbc.lib;S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libCbcSolver.lib;S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libCgl.lib;S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libClp.lib;S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libCoinUtils.lib;S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libOsi.lib;S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libOsiCbc.lib;S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libOsiClp.lib;S:\CbC\Cbc-2.9.5\Cbc\MSVisualStudio\v10\x64-v100-Debug\libOsiCommonTest.lib;C:\Program Files\VTK\lib\vtk*-6.2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>4194304</StackReserveSize>
+      <StackCommitSize>4194304</StackCommitSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(OPENCV_DIR)\include;$(OPENCV_DIR)\include\opencv;$(OPENCV_DIR)\include\opencv2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(OPENCV_DIR)\x64\vc10\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_core244.lib;opencv_imgproc244.lib;opencv_highgui244.lib;opencv_ml244.lib;opencv_video244.lib;opencv_features2d244.lib;opencv_calib3d244.lib;opencv_objdetect244.lib;opencv_contrib244.lib;opencv_legacy244.lib;opencv_flann244.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\alglibinternal.h" />
+    <ClInclude Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\alglibmisc.h" />
+    <ClInclude Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\ap.h" />
+    <ClInclude Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\integration.h" />
+    <ClInclude Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\interpolation.h" />
+    <ClInclude Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\linalg.h" />
+    <ClInclude Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\optimization.h" />
+    <ClInclude Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\solvers.h" />
+    <ClInclude Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\specialfunctions.h" />
+    <ClInclude Include="baseFunc.h" />
+    <ClInclude Include="dirent.h" />
+    <ClInclude Include="project_config.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\alglibinternal.cpp" />
+    <ClCompile Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\alglibmisc.cpp" />
+    <ClCompile Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\ap.cpp" />
+    <ClCompile Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\integration.cpp" />
+    <ClCompile Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\interpolation.cpp" />
+    <ClCompile Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\linalg.cpp" />
+    <ClCompile Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\optimization.cpp" />
+    <ClCompile Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\solvers.cpp" />
+    <ClCompile Include="..\..\..\alglib-3.9.0.cpp.gpl_test\cpp\src\specialfunctions.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="vessel_assosiation.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
